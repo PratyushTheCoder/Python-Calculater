@@ -1,5 +1,5 @@
 import os
-import pyttsx3  # IMPORTANT! pip install pyttsx3 do this in a powershell terminal
+import pyttsx3  # IMPORTANT! (pip install pyttsx3) do this in a powershell terminal
 
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
